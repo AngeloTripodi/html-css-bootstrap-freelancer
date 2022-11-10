@@ -1,6 +1,13 @@
-[class^="col"]{
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    background-color: blueviolet;
-    border: 1px solid violet;
+header{
+    background-color: darkblue;
+    color: white;
+}
+
+.col-12 img{
+    width: 50%;
+    margin: auto;
+}
+
+.bg-springgreen{
+    background-color: mediumspringgreen;
 }
