@@ -10,7 +10,7 @@ header{
 }
 
 .bg-springgreen{
-    background-color: #0ff19b;
+    background-color: #1abc9c;
 }
 
 .my-card img{
@@ -18,7 +18,8 @@ header{
 }
 
 [class^="col"] h1{
-    margin-top: 2rem ;
+    margin-top: 2rem;
+    font-size: 3.5rem;
 }
 
 .button-white{
@@ -32,4 +33,9 @@ header{
 
 #info{
     background-color: rgb(71, 75, 111);
+}
+
+.my-hr-wh{
+    height: .25rem;
+    background-color: white;
 }
