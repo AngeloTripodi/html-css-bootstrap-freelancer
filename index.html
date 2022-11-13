@@ -11,18 +11,38 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="text-white">
-        <div class="container-md">
-            <div class="row ">
-                <div class="my-header py-4">
-                    <div class="col-12"> START BOOTSTRAP</div>
+
+    <header>
+        <nav class="navbar navbar-dark fixed-top my-bg">
+            <div class="container-md">
+              <a class="navbar-brand fw-bold" href="#">BOOTSTRAP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header my-bg text-white">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BOOTSTRAP</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link text-black" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-black" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-black" href="#">CONTACT</a>
+                  </li>
+                </div>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
 
     <main>
-        <div id="start" class="container-fluid bg-springgreen text-white">
+        <div id="start" class="container-fluid bg-springgreen text-white pt-5">
             <div class="row justify-content-center ">
                 <div class="col-12 col-md-10  col-xl-6 text-center gy-5">
                     <img src="./img/avatar.svg" class="mb-2" calt="">
