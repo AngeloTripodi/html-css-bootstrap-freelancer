@@ -9,8 +9,13 @@ header{
     min-width: 50px;
 }
 
-.bg-springgreen{
+.bg-springgreen,
+.my-btn{
     background-color: #1abc9c;
+}
+
+.my-btn:hover{
+    background-color: grey;
 }
 
 .my-card img{
@@ -54,4 +59,11 @@ header{
 
 span{
     color: #1abc9c;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    
 }
